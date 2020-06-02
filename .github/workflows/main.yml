@@ -1,5 +1,5 @@
 
-name: Deploy Website
+name: bootcamp continous CI
 
 on: [push]
 
@@ -16,4 +16,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ bootcamp_setup_website.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ bootcamp_setup_alisahab.surge.sh --token ${{secrets.SURGETOKENNUMBER}}
